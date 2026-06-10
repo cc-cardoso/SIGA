@@ -1,0 +1,28 @@
+<%- include("../partials/header", { title }) %>
+
+<main class="container py-5">
+  <div class="row align-items-center g-4">
+    <section class="col-lg-7">
+      <p class="text-uppercase text-secondary small fw-semibold mb-2">Sistema de Gestao dos Associados</p>
+      <h1 class="display-5 fw-bold">SIGA</h1>
+      <p class="lead text-secondary">
+        Plataforma web para automatizar a admissao de associados, pagamentos, recibos, atividades,
+        dashboard e controlo de acessos.
+      </p>
+    </section>
+
+    <section class="col-lg-5">
+      <div class="border rounded-3 p-4 bg-light">
+        <h2 class="h5 mb-3">Modulos principais</h2>
+        <ul class="list-group">
+          <% modules.forEach((moduleName) => { %>
+            <li class="list-group-item"><%= moduleName %></li>
+          <% }) %>
+        </ul>
+      </div>
+    </section>
+  </div>
+</main>
+
+<%- include("../partials/footer") %>
+
