@@ -1,4 +1,4 @@
-# SIGA - Sistema de Gestao dos Associados
+# SIGA 
 
 Projeto academico da disciplina de Tecnologias de Desenvolvimento Web II.
 
